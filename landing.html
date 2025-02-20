@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contatto di Fabiana Masia</title>
+
+  <!-- Stili CSS base (puoi personalizzarli ulteriormente) -->
+  <style>
+    /* Sfondo principale con margine tutto intorno */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; 
+      padding: 20px; /* Lascia un bordo verde ai lati */
+      background: #CDE0CC; /* Verde pastello */
+      color: #333;
+    }
+
+    /* Contenitore bianco al centro */
+    .container {
+      max-width: 450px;
+      margin: 0 auto; /* Centra il contenitore */
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    /* Immagine profilo */
+    img {
+      width: 190px; 
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    /* Nome */
+    h1 {
+      font-size: 1.8em;
+      margin: 0;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* Ruolo (Fisioterapista) */
+    .role {
+      color: #666;
+      font-size: 1.3em;
+      margin-bottom: 20px;
+    }
+
+    /* Box informazioni (indirizzo, telefono, email) */
+    .info {
+      text-align: left;
+      margin: 20px 0;
+      font-size: 1.2em;
+      line-height: 1.5em;
+    }
+    .info p {
+      margin: 10px 0;
+    }
+
+    /* Pulsante Salva Contatto */
+    .btn {
+      display: inline-block;
+      background: #9acc97;
+      color: #fff;
+      padding: 14px 24px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+    .btn:hover {
+      background: #7da67b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Foto -->
+    <img src="photo.jpg" alt="Foto di Fabiana Masia" />
+
+    <!-- Nome e ruolo -->
+    <h1>Fabiana Masia</h1>
+    <div class="role">Fisioterapista</div>
+
+    <!-- Informazioni di contatto -->
+    <div class="info">
+      <p>
+        <strong>Indirizzo:</strong><br>
+        Corso Leone Giordano 5<br>
+        13046 Livorno Ferraris (VC)
+      </p>
+
+      <p>
+        <strong>Telefono:</strong><br>
+        <a href="tel:+393493174624">+39 349 3174624</a>
+      </p>
+
+      <p>
+        <strong>Email:</strong><br>
+        <a href="mailto:fabiana.masia@gmail.com">fabiana.masia@gmail.com</a>
+      </p>
+    </div>
+
+    <!-- Pulsante Salva Contatto (punta al file .vcf) -->
+    <a class="btn" href="fabiana.vcf" download="FabianaMasia.vcf">
+      Salva Contatto
+    </a>
+  </div>
+
+</body>
+</html>
+
